@@ -25,7 +25,7 @@ app.use(middleWare.logger);
 
 app.get('/about',middleWare.requireAuthentication,function(req,res){
 
-	res.send('About Express');
+	res.send('About Express!!');
 });
 
 //app.use(middleWare.requireAuthentication);
